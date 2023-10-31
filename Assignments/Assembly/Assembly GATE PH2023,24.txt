@@ -1,7 +1,7 @@
 ASSEMBLY GATE PH2023,24 :
 CODE: 
 
-.include "/sdcard/digital-design/assembly    /setup/m328Pdef/m328Pdef.inc"   ; Include file for ATmega328P                         
+.include "/sdcard/digital-design/assembly/setup/m328Pdef/m328Pdef.inc"   ; Include file for ATmega328P                         
        ldi r16,0b11111001
        out  DDRB,r16                           
     Start:
