@@ -1,0 +1,5 @@
+GATE PH2023,24
+
+hello.asm
+
+To open hello.asm file in mobile open ArduinoDroid -> Click on 3 dots -> Actions -> Upload -> Upload over precompiled -> Click on 2 dots -> assembly -> you will find 2 files *hello.eep.hex *hello.hex -> Select hello.hex file
