@@ -1,0 +1,34 @@
+GATE ECE 2023 Q-24 CODE :
+
+#include <LiquidCrystal.h> 
+LiquidCrystal lcd(12,11,5,4,3,2);//arduino pins connected to LCD 
+//Declarations 
+float t,n=3, T, f=1, l,b=0.001; 
+
+void setup() 
+{ 
+//Get the result onto the serial monitor 
+lcd.begin(16,2); 
+lcd.setCursor(0,0); 
+
+Serial.begin(9600); 
+} 
+
+void loop() 
+{ 
+T=1/f; 
+int l=n*T; 
+int t=1/b +1; 
+Serial.println(T); 
+Serial.println(l); 
+Serial.println(t); 
+delay(1000); 
+Serial.println(); 
+lcd.setCursor(0,0); 
+lcd.print("Latency:"); 
+lcd.print(l); 
+lcd.setCursor(0,1); 
+lcd.print("throughput:"); 
+lcd.print(t); 
+
+}
