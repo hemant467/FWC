@@ -10,3 +10,5 @@ This repository consists of the <a href="https://github.com/gadepall/fwc-1">Cert
 ![20231220_101258](https://github.com/hemant467/FWC/assets/85243370/e75a9798-fcb4-45d8-a52d-6b4391d5aa14)
 
 <a href="https://github.com/hemant467/FWC">📜 Module-1 (Data handling and Hardware Programming) in Future Wireless Communication program 📜</a>
+
+<img src="https://readme-typing-svg.herokuapp.com/?lines=📜;Module-1;Data+handling;and;Hardware+Programming;in;Future;Wireless;Communication📜&font=Fira%20Code&color=%23D62F79&center=true&width=280&height=50">
